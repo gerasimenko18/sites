@@ -1,0 +1,60 @@
+body {
+    background: url('../background.jpeg') no-repeat left top / cover;
+    background-attachment: fixed;    
+}
+
+.form-book { 
+    padding: 40px; 
+    padding-right: 80px;
+    max-width: 600px; 
+    margin: 0 auto; 
+    border-radius: 10px 
+} 
+.form-book__input {
+    border-radius: 5px; 
+    border: 1px solid #797979; 
+    font-family: inherit; 
+    font-size: 15px; 
+    width: 100%; 
+    padding: 10px 20px; 
+    margin-bottom: 10px; 
+}
+
+.select-btn {
+    background-color: #e7e7e7;
+    color: black;
+    font-size: 16px;
+    padding: 9px 20px;
+    border-radius: 5px;
+    border: 1px solid darkgrey;
+    margin-top: 25px;
+}
+
+
+
+.form-book_modal {
+    padding-top: 0px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.61);
+    -moz-box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.61);
+    box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.61);
+    background: #fff;
+    padding: 40px;
+    padding-top: 0px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.error {
+    color: red;
+}
+
+#message-for-user,
+#message-for-user_modal,
+#message-for-user_box {
+    display: none;
+}
